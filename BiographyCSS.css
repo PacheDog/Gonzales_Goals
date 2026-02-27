@@ -1,0 +1,33 @@
+.content-section{
+	text-align:center;
+}
+
+.childhood-section p, .teen-section p, .college-section p{
+	text-indent: 30px;
+}
+
+.left-img{
+	display:block;
+	object-fit:cover;
+	float:left;
+	margin: 10px 20px;
+	border-radius:20px;
+}
+
+.right-img{
+	display:block;
+	object-fit:cover;
+	float:right;
+	margin: 10px 20px;
+	border-radius:20px;
+}
+
+.hori{
+	width:400px;
+	height:300px;
+}
+
+.vert{
+	height:400px;
+	width:300px;
+}

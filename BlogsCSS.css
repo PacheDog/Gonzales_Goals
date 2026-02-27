@@ -1,0 +1,33 @@
+.content-wrapper{
+	justify-content:center;
+}
+
+.picture{
+	height:500px;
+}
+
+.picture img{
+	text-align:center;
+	height:80%;
+	width:auto;
+}
+
+.nav-bot{
+	padding-top:30px;
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
+
+.nav-bot a{
+	color:#003554;
+	border: 2px solid #003554;
+	font-size: 25px;
+	padding: 8px 25px;
+	text-decoration:none;
+}
+
+.nav-bot a:hover{
+	background-color: #003554;
+    color: white;
+}
