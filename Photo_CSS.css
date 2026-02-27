@@ -1,0 +1,61 @@
+.imgs{
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}
+
+.img-column{
+	
+}
+
+.img-column img{
+	height:150px;
+	width:auto;
+	object-fit: contain;
+	display:block;
+}
+
+summary,h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  list-style: none;       
+  cursor: pointer;
+  padding:20px;
+}
+
+.sum-img img{
+	width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Makes all of them circular for consistency */
+    object-fit: contain; /* Keeps text/logos from being cropped */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+summary img:hover{
+	transform: scale(1.05);
+	z-index: 10;
+	position: relative; 
+}
+
+.col-img{
+	flex-wrap: wrap;
+	display:flex;
+	flex:1;
+	align-items: center;  
+	justify-content:center;
+	gap:20px;
+}
+
+.col-img img:hover{
+	transform: scale(1.05);
+	z-index: 10;
+	position: relative; 
+}
+
+hr{
+	margin:20px;
+	width:100%;
+}
