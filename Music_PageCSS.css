@@ -1,0 +1,141 @@
+/*
+.audio-card {
+    background-color: #D2C1B6;
+    color: #003554;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.custom-controls button {
+    background-color: #FEFCFB;
+    border: none;
+    color: #003554;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-controls button:hover {
+    background-color: #003554;
+	color:white;
+}
+*/
+.list-title{
+	text-align:center;
+	font-family:Fabrica, London, "Sergio Trendy",Georgia, serif;
+	color:#003554;
+	padding-bottom:20px;
+}
+
+.genres{
+	display:flex;
+	align-items:center;
+}
+
+.genre-card{
+	flex:1;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-bottom:20px;
+}
+
+.genre-pic{
+	width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.genre-pic img{
+	width:100%;
+	height:100%;
+	border-radius:10%;
+	object-fit: cover;
+	display: block;
+}
+
+.genre-pic img:hover{
+	transform: scale(1.05);
+	z-index: 10;
+	position: relative; 
+}
+
+.genre-name{
+	padding-top:10px;
+}
+.genre-name a{
+	text-decoration:none;
+	color:#003554;
+}
+
+
+.genre-name a:hover{
+	text-decoration:underline;
+	color:#7EB6C6;
+}
+
+.audio-card {
+    background-color: #D2C1B6;
+    color: #003554;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    gap: 20px;
+}
+
+.card-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.album-thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #FEFCFB;
+}
+
+.card-center {
+    flex: 2;
+    text-align: center;
+}
+
+.song-title {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.card-right {
+    flex: 1;
+    text-align: right;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.custom-controls button {
+    background-color: #FEFCFB;
+    border: none;
+    color: #003554;
+    padding: 8px 15px;
+    margin: 2px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+	border: 2px solid #003554;
+}
+
+.custom-controls button:hover {
+    background-color: #003554;
+    color: white;
+}
